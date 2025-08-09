@@ -1,7 +1,5 @@
 from __future__ import annotations
-import os
-from fastapi import Depends, Header, HTTPException
-from . import models
+from fastapi import Header, HTTPException
 from ctl_core.config import settings
 from ctl_core.auth.azure_ad import AzureADConfig, AzureADVerifier
 

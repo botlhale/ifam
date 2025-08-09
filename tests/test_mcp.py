@@ -3,11 +3,9 @@ Test MCP functionality
 """
 
 import pytest
-import pandas as pd
 from ctl_mcp.server import (
     query_data,
     transform_data,
-    query_and_transform,
     list_available_connectors,
     list_available_transforms,
 )

@@ -1,7 +1,7 @@
 from __future__ import annotations
-from typing import Any, Callable, Dict, Type
+from typing import Callable, Dict
 
-from .connectors.base import Connector, QuerySpec
+from .connectors.base import Connector
 from .connectors.local import LocalConnector
 from .connectors.azure_sql import AzureSqlConnector
 from .connectors.mysql import MySqlConnector
