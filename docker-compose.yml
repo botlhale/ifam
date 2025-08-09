@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  ctl-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - CTL_AUTH_MODE=${CTL_AUTH_MODE:-disabled}
+      - AZURE_AD_TENANT_ID=${AZURE_AD_TENANT_ID}
+      - AZURE_AD_AUDIENCE=${AZURE_AD_AUDIENCE}

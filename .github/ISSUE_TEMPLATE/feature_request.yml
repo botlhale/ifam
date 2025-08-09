@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an idea for CTL
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives

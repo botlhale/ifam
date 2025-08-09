@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+.venv/
+.pytest_cache/
+.dist/
+build/
+dist/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Data
+data/*.parquet
+data/*.csv
+
+# Docker
+*.log

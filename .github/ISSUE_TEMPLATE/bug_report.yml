@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a problem with CTL
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: describe
+    attributes:
+      label: Describe the bug
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
